@@ -2,6 +2,8 @@
 
 This challenge was set by Makers Academy as an example tech test.
 
+<!-- Choose js business logic, why? -->
+
 ## The Makers Brief
 
 The rules of tic-tac-toe are as follows:
@@ -15,3 +17,49 @@ The rules of tic-tac-toe are as follows:
 * A game is over when all fields are taken
 
 Build the business logic for a game of tic tac toe. It should be easy to implement a working game of tic tac toe by combining your code with any user interface, whether web or command line.
+
+## How to run
+
+#### Download the test
+```
+$ git clone git@github.com:LazySamir/tic-tac-toe-tech-test.git
+$ cd tic-tac-toe-tech-test
+```
+
+### Use the application
+
+### Test the application
+
+### User stories
+
+```
+As a user
+So I have something to do in my spare time
+I want to be able to start a game of tic-tac-toe with a friend
+
+As a user
+So I can deploy my masterful strategy
+I want to be able to place my symbol in a field
+
+As a user
+So I have some competition
+I want my opponent to be able to place their symbol after me
+
+As a user
+So there is no cheating
+I want game to declare a winner when all fields in row, column or diagonals are taken
+
+As a user
+So we are sure when a game is over
+I want the game to declare a tie if all fields are taken but there is no winner
+```
+
+### Domain model
+
+#### Approach
+1. Create user stories
+
+2. Drew out an initial domain model
+
+
+#### How I would improve the app
