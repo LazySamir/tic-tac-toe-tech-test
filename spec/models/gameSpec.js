@@ -6,7 +6,7 @@ describe('Game', function() {
     
     describe('.new', function() {
         it('creates an empty grid', function() {
-            expect(game.grid).toEqual([[],[],[]]);
+            expect(game.grid).toEqual([[null, null, null],[null, null, null],[null, null, null]]);
         });
          it('returns x', function() {
             expect(game.turn).toEqual('x');
