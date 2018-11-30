@@ -24,9 +24,14 @@ describe('Game', function() {
     });
 
     describe('.move', function() {
-        it('places a piece on the grid', function() {
+        it('places an "x" on the grid', function() {
             new_grid = game.move([0,0])
             expect(new_grid).toEqual([['x', null, null],[null, null, null],[null, null, null]])
         }) 
+        it('places a "o" on the grid', function() {
+            game.move([0,0])
+            new_grid = game.move([0,1])
+            expect(new_grid).toEqual([['x', 'o', null],[null, null, null],[null, null, null]])
+        })
     })
 });
