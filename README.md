@@ -2,8 +2,6 @@
 
 This challenge was set by Makers Academy as an example tech test.
 
-<!-- Choose js business logic, why? -->
-
 ## The Makers Brief
 
 The rules of tic-tac-toe are as follows:
@@ -57,9 +55,18 @@ I want the game to declare a tie if all fields are taken but there is no winner
 ### Domain model
 
 #### Approach
-1. Create user stories
 
-2. Drew out an initial domain model
+We set this task to complete whilst pairing. 
+
+Our approach: 
+1. Write out user stories
+2. Draw a domain model
+3. Hard code player and grid to be refactored/extracted later
+
+#### Plan
+
+1. Extract a grid class
+2. Extract a player class
 
 
 #### How I would improve the app
